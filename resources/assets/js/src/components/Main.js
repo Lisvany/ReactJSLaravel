@@ -41,7 +41,6 @@ export default class Main extends Component {
                             $this.setState({
                                 user: res.data
                             })
-                            // console.log(res)
                         })
             } catch (error) {
                 console.error(error);
