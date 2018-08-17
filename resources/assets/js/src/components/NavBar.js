@@ -11,7 +11,6 @@ export default class NavBar extends Component {
 
     handleSubmit(){
         localStorage.removeItem('userToken');
-        // this.props.history.push('/login');
         this.props.navigation.push('/login');
 
     }
