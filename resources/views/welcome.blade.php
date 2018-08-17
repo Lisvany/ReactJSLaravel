@@ -27,23 +27,11 @@
         <!-- Styles -->
     </head>
     <body style="width:100%">
-        {{-- <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-        </div> --}}
 
         <div id="app" style="text-align: -webkit-center"></div>
 
     <!-- Compiled and minified JavaScript -->
-    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script> --}}
+
     <script src="{{ mix('/js/app.js') }}"></script>
 
     {{-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> --}}
