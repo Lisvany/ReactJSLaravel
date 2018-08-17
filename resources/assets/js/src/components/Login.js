@@ -54,7 +54,6 @@ export default class Login extends Component {
     render() {
         const { error } = this.state;
         const { userToken } = localStorage;
-        // console.log(!userToken || (userToken === null) || (userToken === ""));
         
         if(!userToken || (userToken === null) || (userToken === "")){
             
