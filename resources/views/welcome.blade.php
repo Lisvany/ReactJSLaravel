@@ -9,7 +9,6 @@
 
 
          <!-- Compiled and minified CSS -->
-        {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,15 +33,8 @@
 
     <script src="{{ mix('/js/app.js') }}"></script>
 
-    {{-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> --}}
- 
-
-
     <script>
-            //    $( document ).ready(function() {
-            //         $(".dropdown-trigger").dropdown();
-            //     });
-
+    
             document.addEventListener('DOMContentLoaded', () => {
 
                     // Get all "navbar-burger" elements
